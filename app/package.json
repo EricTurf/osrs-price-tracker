@@ -1,0 +1,25 @@
+{
+    "name": "osrs-price-tracker",
+    "version": "1.0.0",
+    "description": "A Price tracker for osrs",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --progress --mode development",
+        "start": "node ./dist/server.js",
+        "test": "jest"
+    },
+    "author": "ericturf <eric.turriff@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "dotenv": "^6.1.0",
+        "express": "^4.16.4",
+        "mongoose": "^5.3.14",
+        "rxjs": "^6.3.3"
+    },
+    "devDependencies": {
+        "webpack": "^4.26.1",
+        "webpack-cli": "^3.1.2",
+        "webpack-node-externals": "^1.7.2"
+    }
+}
