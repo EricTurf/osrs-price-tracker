@@ -4,10 +4,6 @@ const schema = new mongoose.Schema({
     rsId: { type: Number, required: 'Item must have an rsId' },
     name: { type: String, required: 'Must provide name to item' },
     members: { type: Boolean },
-    buyAverage: { type: Number },
-    sellAverage: { type: Number },
-    buyQuantity: { type: Number },
-    sellQuantity: { type: Number },
     category: [{ type: String }],
     created: {
         type: Date,
